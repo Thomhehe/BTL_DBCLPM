@@ -34,7 +34,7 @@ namespace DoAn1
             dtNhanVien = bus_bh.GetNhanVien();
             cbomanv.DataSource = dtNhanVien;
             cbomanv.DisplayMember = "MaNVien";
-            cbomanv.ValueMember = "TenNVien";
+            cbomanv.ValueMember = "TenNV";
 
             cbotennv.DataSource = dtNhanVien;
             cbotennv.DisplayMember = "TenNV";
